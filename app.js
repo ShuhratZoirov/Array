@@ -6,7 +6,7 @@ let uzun = alert(`Boshlanishida arrayning uzunligi: ${cars.length}`)
 
 let kesish = confirm(`Sizning arraygizdan ohirgisini olib tashamoqchimisiz`)
 
-if (true) {
+if (kesish) {
     cars.pop()
     alert(`Arrayning uzunligi ${cars.length}`)
 } else {
